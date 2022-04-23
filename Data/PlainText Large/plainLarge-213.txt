@@ -1,0 +1,5 @@
+Dilution (also called Dropout or DropConnect) is a regularization technique for reducing overfitting in artificial neural networks by preventing complex co-adaptations on training data. It is an efficient way of performing model averaging with neural networks. The term dilution refers to the thinning of the weights. The term dropout refers to randomly "dropping out", or omitting, units (both hidden and visible) during the training process of a neural network. Both the thinning of weights and dropping out units trigger the same type of regularization, and often the term dropout is used when referring to the dilution of weights.
+
+
+== Types and uses ==
+Dilution is usually split in weak dilution and strong dilution. Weak dilution describes the process in which the finite fraction of removed connections is small, and strong dilution refers to when this fraction is large. There is no clear distinction on where the limit between strong and weak dilution is, and often the distinction is meaningless, although it has i

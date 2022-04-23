@@ -1,0 +1,9 @@
+ University;
+Norse – a deep learning library for biological neurons built on PyTorch that integrates with Neuromorphic hardware. Norse is developed at Heidelberg University and KTH Royal Institute of Technology;
+snnTorch - gradient-based deep and online learning based on PyTorch developed by Jason K. Eshraghian in University of Michigan and University of Western Australia;
+SpykeTorch - a framework based on PyTorch optimized specifically for convolutional SNNs with at most one spike per neuron. Runs on GPUs.
+
+
+== Hardware ==
+
+Future neuromorphic architectures will comprise billions of such nanosynapses, which require a clear understanding of the physical mechanisms responsible for plasticity. Experimental systems based on ferroelectric tunnel junctions have been used to show that STDP can be harnessed from heterogeneous polarization switching. Through combined scanning probe imaging, electrical transport and atomic-scale molecular dynamics, conductance variations can be modelled by nucleation-dominated reversa

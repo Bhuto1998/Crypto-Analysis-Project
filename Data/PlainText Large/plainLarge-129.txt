@@ -1,0 +1,18 @@
+rent neural networks introduced in 2014. They are used in the full form and several simplified variants. Their performance on polyphonic music modeling and speech signal modeling was found to be similar to that of long short-term memory. They have fewer parameters than LSTM, as they lack an output gate.
+
+
+=== Bi-directional ===
+
+Bi-directional RNNs use a finite sequence to predict or label each element of the sequence based on the element's past and future contexts. This is done by concatenating the outputs of two RNNs, one processing the sequence from left to right, the other one from right to left. The combined outputs are the predictions of the teacher-given target signals. This technique has been proven to be especially useful when combined with LSTM RNNs.
+
+
+=== Continuous-time ===
+A continuous-time recurrent neural network (CTRNN) uses a system of ordinary differential equations to model the effects on a neuron of the incoming inputs.
+For a neuron 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle 

@@ -1,0 +1,30 @@
+Although a single threshold unit is quite limited in its computational power, it has been shown that networks of parallel threshold units can approximate any continuous function from a compact interval of the real numbers into the interval [-1,1]. This result can be found in Peter Auer, Harald Burgsteiner and Wolfgang Maass "A learning rule for very simple universal approximators consisting of a single layer of perceptrons".A single-layer neural network can compute a continuous output instead of a step function. A common choice is the so-called logistic function:
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                e
+                
+                  −
+                  x
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle f(x)={\frac {1}{1+e^{-x}}}}
+  With this choice, the single-layer network is identical to the logistic regression model, wid

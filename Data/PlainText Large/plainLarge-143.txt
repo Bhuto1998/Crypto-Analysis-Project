@@ -1,0 +1,12 @@
+ as nonlinear versions of finite impulse response and infinite impulse response filters and also as a nonlinear autoregressive exogenous model (NARX).
+
+
+== Libraries ==
+Apache Singa
+Caffe: Created by the Berkeley Vision and Learning Center (BVLC). It supports both CPU and GPU. Developed in C++, and has Python and MATLAB wrappers.
+Chainer: The first stable deep learning library that supports dynamic, define-by-run neural networks. Fully in Python, production support for CPU, GPU, distributed training.
+Deeplearning4j: Deep learning in Java and Scala on multi-GPU-enabled Spark. A general-purpose deep learning library for the JVM production stack running on a C++ scientific computing engine. Allows the creation of custom layers. Integrates with Hadoop and Kafka.
+Flux: includes interfaces for RNNs, including GRUs and LSTMs, written in Julia.
+Keras: High-level, easy to use API, providing a wrapper to many other deep learning libraries.
+Microsoft Cognitive Toolkit
+MXNet: a modern open-source deep learning framework 

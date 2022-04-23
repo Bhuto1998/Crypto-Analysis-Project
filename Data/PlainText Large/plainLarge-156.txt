@@ -1,0 +1,44 @@
+inactive state and "dies". This is a form of the vanishing gradient problem. In some cases, large numbers of neurons in a network can become stuck in dead states, effectively decreasing the model capacity. This problem typically arises when the learning rate is set too high. It may be mitigated by using leaky ReLUs instead, which assign a small positive slope for x < 0; however, the performance is reduced.
+
+
+== Variants ==
+
+
+=== Linear Variants ===
+
+
+==== Leaky ReLU ====
+Leaky ReLUs allow a small, positive gradient when the unit is not active.
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  x
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  0
+                  ,
+                
+              
+              
+                
+                  0.01
+                  x
+                
+         

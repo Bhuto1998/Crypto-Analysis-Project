@@ -1,0 +1,59 @@
+
+                
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    y
+                  
+                
+                (
+                
+                  W
+                  
+                    y
+                  
+                
+                
+                  h
+                  
+                    t
+                  
+                
+                +
+                
+                  b
+                  
+                    y
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}h_{t}&=\sigma _{h}(W_{h}x_{t}+U_{h}h_{t-1}+b_{h})\\y_{t}&=\sigma _{y}(W_{y}h_{t}+b_{y})\end{aligned}}}
+  
+Jordan network
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  h
+                  
+                    t
+                  
+                
+              
+              
+       

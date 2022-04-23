@@ -1,0 +1,5 @@
+s on the MNIST handwritten digits benchmark. In 2011, they extended this GPU approach to CNNs, achieving an acceleration factor of 60, with impressive results. In 2011, they used such CNNs on GPU to win an image recognition contest where they achieved superhuman performance for the first time. Between May 15, 2011 and September 30, 2012, their CNNs won no less than four image competitions. In 2012, they also significantly improved on the best performance in the literature for multiple image databases, including the MNIST database, the NORB database, the HWDB1.0 dataset (Chinese characters) and the CIFAR10 dataset (dataset of 60000 32x32 labeled RGB images).Subsequently, a similar GPU-based CNN by Alex Krizhevsky et al. won the ImageNet Large Scale Visual Recognition Challenge 2012. A very deep CNN with over 100 layers by Microsoft won the ImageNet 2015 contest.
+
+
+=== Intel Xeon Phi implementations ===
+Compared to the training of CNNs using GPUs, not much attention was given to the Intel Xeon Phi coprocessor.

@@ -1,0 +1,28 @@
+lems in the Papez circuit can also give rise to a number of neurodegenerative disorders including Parkinson's.
+
+
+== See also ==
+Feedback
+List of regions in the human brain
+Network science
+Neural coding
+Neural engineering
+Neural oscillation
+Pulse-coupled networks
+Systems neuroscience
+
+
+== References ==
+
+
+== Further reading ==
+Intrinsic plasticity Robert H. Cudmore, Niraj S. Desai Scholarpedia 3(2):1363. doi:10.4249/scholarpedia.1363
+
+
+== External links ==
+Comparison of Neural Networks in the Brain and Artificial Neural Networks
+Lecture notes at MIT OpenCourseWare
+Computation in the Brain
+Biological Neural Network Toolbox - A free Matlab toolbox for simulating networks of several different types of neurons
+WormWeb.org: Interactive Visualization of the C. elegans Neural Network - C. elegans, a nematode with 302 neurons, is the only organism for whom the entire neural network has been uncovered.  Use this site to browse through the network and to search for paths between any 2 neurons.
+Introduction to Neurons and

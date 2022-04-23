@@ -1,0 +1,11 @@
+preted as an output of a neuron that looks at a small region in the input and shares parameters with neurons in the same activation map.
+
+
+==== Local connectivity ====
+
+When dealing with high-dimensional inputs such as images, it is impractical to connect neurons to all neurons in the previous volume because such a network architecture does not take the spatial structure of the data into account. Convolutional networks exploit spatially local correlation by enforcing a sparse local connectivity pattern between neurons of adjacent layers: each neuron is connected to only a small region of the input volume.
+The extent of this connectivity is a hyperparameter called the receptive field of the neuron. The connections are local in space (along width and height), but always extend along the entire depth of the input volume. Such an architecture ensures that the learnt filters produce the strongest response to a spatially local input pattern.
+
+
+==== Spatial arrangement ====
+Three hyperparameters control the size of 

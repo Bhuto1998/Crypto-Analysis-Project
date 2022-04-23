@@ -1,0 +1,36 @@
+er stride means smaller overlap of receptive fields and smaller spatial dimensions of the output volume.
+Sometimes, it is convenient to pad the input with zeros (or other values, such as the average of the region) on the border of the input volume. The size of this padding is a third hyperparameter. Padding provides control of the output volume's spatial size. In particular, sometimes it is desirable to exactly preserve the spatial size of the input volume, this is commonly referred to as "same" padding.The spatial size of the output volume is a function of the input volume size 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  , the kernel field size 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+   of the convolutional layer neurons, the stride 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  , and the amount of zero padding 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+   on the border. The number of neurons that "fit" in a given volume is then:
+
+If this 

@@ -1,0 +1,5 @@
+ials are initiated and propagated. Communication between neurons, which requires the exchange of chemical neurotransmitters in the synaptic gap, is described in various models, such as the integrate-and-fire model, FitzHugh–Nagumo model (1961–1962), and Hindmarsh–Rose model (1984). The leaky integrate-and-fire model (or a derivative) is commonly used as it is easier to compute than the Hodgkin–Huxley model.Brainchip Holdings Ltd announced on 21 October 2021 that it was taking orders for its Akida AI Processor Development Kits, making it the world's first commercially available neuromorphic processor operating on a spiking neural network.
+
+
+== Underpinnings ==
+Information in the brain is represented as action potentials (neuron spikes), which may be grouped into spike trains or even coordinated waves of brain activity. A fundamental question of neuroscience is to determine whether neurons communicate by a rate or temporal code. Temporal coding suggests that a single spiking neuron can replace hundreds of hidde

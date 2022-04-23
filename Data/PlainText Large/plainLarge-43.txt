@@ -1,0 +1,10 @@
+ack to teach the NAS network. Available systems include AutoML and AutoKeras.Design issues include deciding the number, type and connectedness of network layers, as well as the size of each and the connection type (full, pooling, ...).
+Hyperparameters must also be defined as part of the design (they are not learned), governing matters such as how many neurons are in each layer, learning rate, step, stride, depth, receptive field and padding (for CNNs), etc.
+
+
+== Use ==
+Using Artificial neural networks requires an understanding of their characteristics.
+
+Choice of model: This depends on the data representation and the application. Overly complex models are slow learning.
+Learning algorithm: Numerous trade-offs exist between learning algorithms. Almost any algorithm will work well with the correct hyperparameters for training on a particular data set. However, selecting and tuning an algorithm for training on unseen data requires significant experimentation.
+Robustness: If the model, cost function and learning 

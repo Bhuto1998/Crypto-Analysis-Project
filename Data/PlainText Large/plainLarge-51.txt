@@ -1,0 +1,45 @@
+a softmax activation function, a generalization of the logistic function, on the output layer of the neural network (or a softmax component in a component-based network) for categorical target variables, the outputs can be interpreted as posterior probabilities. This is useful in classification as it gives a certainty measure on classifications.
+The softmax activation function is:
+
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+        =
+        
+          
+            
+              e
+              
+                
+                  x
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+                ∑
+                
+                  j
+                  =
+                  1
+                
+                
+                  c
+                
+              
+              
+                e
+                
+                  
+                    x
+                    
+                     

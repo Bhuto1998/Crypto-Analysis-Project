@@ -1,0 +1,6 @@
+r-discharge. This circuit type is found in the reflex arcs of certain reflexes.
+
+
+== Study methods ==
+
+Different neuroimaging techniques have been developed to investigate the activity of neural circuits and networks. The use of "brain scanners" or functional neuroimaging to investigate the structure or function of the brain is common, either as simply a way of better assessing brain injury with high-resolution pictures, or by examining the relative activations of different brain areas. Such technologies may include functional magnetic resonance imaging (fMRI), brain positron emission tomography (brain PET), and computed axial tomography (CAT) scans. Functional neuroimaging uses specific brain imaging technologies to take scans from the brain, usually when a person is doing a particular task, in an attempt to understand how the activation of particular brain areas is related to the task. In functional neuroimaging, especially fMRI, which measures hemodynamic activity (using BOLD-contrast imaging) which is clo

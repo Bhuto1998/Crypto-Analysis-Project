@@ -1,0 +1,1 @@
+nsmit a signal to other neurons.

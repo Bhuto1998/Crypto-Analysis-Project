@@ -1,0 +1,69 @@
+ll, giving rise to a tiny uncertainty. This edge-case can be solved exactly with mean field theory. In weak dilution the impact on the weights can be described as
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                
+                  i
+                  j
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {w_{ij}}}}
+   – diluted weight
+
+  
+    
+      
+        
+          w
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle w_{ij}}
+   – real weight before dilution
+
+  
+    
+      
+        P
+        (
+        c
+        )
+      
+    
+    {\displaystyle P(c)}
+   – the probability of 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  , the probability of keeping a weightThe interpretation of probability 
+  
+    
+      
+        P
+        (
+        c
+        )
+      
+    
+    {\displaystyle P(c)}
+   can also be changed from keeping a weight into pruning a we

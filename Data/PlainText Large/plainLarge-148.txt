@@ -1,0 +1,50 @@
+ely used in statistical modeling. The logistic function is one of the family of functions called sigmoid functions because their S-shaped graphs resemble the final-letter lower case of the Greek letter Sigma. It has a continuous derivative, which allows it to be used in backpropagation. This function is also preferred because its derivative is easily calculated:
+
+  
+    
+      
+        
+          f
+          ′
+        
+        (
+        x
+        )
+        =
+        f
+        (
+        x
+        )
+        (
+        1
+        −
+        f
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle f'(x)=f(x)(1-f(x))}
+  .(The fact that 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   satisfies the differential equation above can easily be shown by applying the chain rule.)
+If single-layer neural network activation function is modulo 1, then this network can solve XOR problem with a single neuron.
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        x
+        
+       

@@ -1,0 +1,48 @@
+                             
+                            
+                            )
+                          
+                          ‖
+                          
+                          ,
+                          i
+                          ≠
+                          j
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\delta (x^{(i)},x^{(j)})={\begin{cases}\min \ \|\operatorname {f} \left(x^{(i)}\right)-\operatorname {f} \left(x^{(j)}\right)\|\,,i=j\\\max \ \|\operatorname {f} \left(x^{(i)}\right)-\operatorname {f} \left(x^{(j)}\right)\|\,,i\neq j\end{cases}}\end{aligned}}}
+  
+
+  
+    
+      
+        i
+        ,
+        j
+      
+    
+    {\displaystyle i,j}
+   are indexes into a set of vectors
+
+  
+    
+      
+        f
+        ⁡
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \operatorname {f} (\cdot )}
+   function 

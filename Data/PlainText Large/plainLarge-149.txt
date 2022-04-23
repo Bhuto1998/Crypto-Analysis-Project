@@ -1,0 +1,30 @@
+ mod
+        
+        
+        1
+      
+    
+    {\displaystyle f(x)=x\mod 1}
+  
+
+  
+    
+      
+        
+          f
+          ′
+        
+        (
+        x
+        )
+        =
+        1
+      
+    
+    {\displaystyle f'(x)=1}
+  
+
+
+== Multi-layer perceptron ==
+
+This class of networks consists of multiple layers of computational units, usually interconnected in a feed-forward way. Each neuron in one layer has directed connections to the neurons of the subsequent layer. In many applications the units of these networks apply a sigmoid function as an activation function. However sigmoidal activation functions have very small derivative values outside a small range and do not work well in deep neural networks due to the vanishing gradient problem. Alternatives to sigmoidal activation functions that alleviate the vanishing gradient problems and allow deep networks to be trained have been proposed.The universal approximation theorem for neural networks states that every continuous function that maps intervals of r

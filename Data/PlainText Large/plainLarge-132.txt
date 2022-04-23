@@ -1,0 +1,76 @@
+     
+    
+    {\displaystyle \sigma (x)}
+   : Sigmoid of x e.g. 
+  
+    
+      
+        σ
+        (
+        x
+        )
+        =
+        1
+        
+          /
+        
+        (
+        1
+        +
+        
+          e
+          
+            −
+            x
+          
+        
+        )
+      
+    
+    {\displaystyle \sigma (x)=1/(1+e^{-x})}
+  .
+
+  
+    
+      
+        
+          y
+          
+            j
+          
+        
+      
+    
+    {\displaystyle y_{j}}
+   : Activation of presynaptic node
+
+  
+    
+      
+        
+          Θ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \Theta _{j}}
+   : Bias of presynaptic node
+
+  
+    
+      
+        
+          I
+          
+            i
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle I_{i}(t)}
+   : Input (if any) to nodeCTRNNs have been applied to evolutionary robotics where they have been used to address vision, co-operation, and minimal cognitive behaviour.Note that, by the Shannon sampling theor

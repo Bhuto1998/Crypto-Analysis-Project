@@ -1,0 +1,7 @@
+ the training set.
+Other typical problems of the back-propagation algorithm are the speed of convergence and the possibility of ending up in a local minimum of the error function. Today, there are practical methods that make back-propagation in multi-layer perceptrons the tool of choice for many machine learning tasks.
+One also can use a series of independent neural networks moderated by some intermediary, a similar behavior that happens in brain. These neurons can perform separably and handle a large task, and the results can be finally combined.
+
+
+== Other feedforward networks ==
+More generally, any directed acyclic graph may be used for a feedforward network, with some nodes (with no parents) designated as inputs, and some nodes (with no children) designated as outputs. These can be viewed as multilayer networks where some edges skip layers, either counting layers backwards from the outputs or forwards from the inputs. Various activation functions can be used, and there can be relations between weights, as

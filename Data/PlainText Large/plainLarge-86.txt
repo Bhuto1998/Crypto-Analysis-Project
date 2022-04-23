@@ -1,0 +1,71 @@
+ision function and in the overall network without affecting the receptive fields of the convolution layers.
+Other functions can also be used to increase nonlinearity, for example the saturating hyperbolic tangent 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        tanh
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)=\tanh(x)}
+  , 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          |
+        
+        tanh
+        ⁡
+        (
+        x
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle f(x)=|\tanh(x)|}
+  , and the sigmoid function 
+  
+    
+      
+        σ
+        (
+        x
+        )
+        =
+        (
+        1
+        +
+        
+          e
+          
+            −
+            x
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+      
+    
+    {\textstyle \sigma (x)=(1+e^{-x})^{-1}}
+  . ReLU is often preferred to other functions because it trains the neura

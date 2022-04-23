@@ -1,0 +1,36 @@
+heory; see logistic regression) and its more practical counterpart, the hyperbolic tangent. The rectifier is, as of 2017, the most popular activation function for deep neural networks.Rectified linear units find applications in computer vision and speech recognition using deep neural nets and computational neuroscience.
+
+
+== Advantages ==
+Sparse activation: For example, in a randomly initialized network, only about 50% of hidden units are activated (have a non-zero output).
+Better gradient propagation: Fewer vanishing gradient problems compared to sigmoidal activation functions that saturate in both directions.
+Efficient computation: Only comparison, addition and multiplication.
+Scale-invariant: 
+  
+    
+      
+        max
+        (
+        0
+        ,
+        a
+        x
+        )
+        =
+        a
+        max
+        (
+        0
+        ,
+        x
+        )
+        
+           for 
+        
+        a
+        ≥
+        0
+      
+    
+    {\displaystyle \max(0,ax)=a\max(0,x){\text{ for }}a\geq 0}
+  .Rectify

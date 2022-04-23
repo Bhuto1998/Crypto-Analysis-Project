@@ -1,0 +1,7 @@
+e recognition, novelty detection and sequential decision making.
+Data processing, including filtering, clustering, blind signal separation and compression.Application areas of ANNs include nonlinear system identification and control (vehicle control, process control), game-playing and decision making (backgammon, chess, racing), pattern recognition (radar systems, face identification, object recognition), sequence recognition (gesture, speech, handwritten text recognition), medical diagnosis, financial applications, data mining (or knowledge discovery in databases, "KDD"), visualization and e-mail spam filtering. For example, it is possible to create a semantic profile of user's interests emerging from pictures trained for object recognition.
+
+
+== Neuroscience ==
+Theoretical and computational neuroscience is the field concerned with the analysis and computational modeling of biological neural systems.
+Since neural systems are intimately related to cognitive processes and behaviour, the field is closely relate

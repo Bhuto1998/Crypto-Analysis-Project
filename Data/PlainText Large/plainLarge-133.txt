@@ -1,0 +1,25 @@
+em, discrete time recurrent neural networks can be viewed as continuous-time recurrent neural networks where the differential equations have transformed into equivalent difference equations. This transformation can be thought of as occurring after the post-synaptic node activation functions 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle y_{i}(t)}
+   have been low-pass filtered but prior to sampling.
+
+
+=== Hierarchical ===
+Hierarchical RNNs connect their neurons in various ways to decompose hierarchical behavior into useful subprograms. Such hierarchical structures of cognition are present in theories of memory presented by philosopher Henri Bergson, whose philosophical views have inspired hierarchical models.
+
+
+=== Recurrent multilayer perceptron network ===
+Generally, a recurrent multilayer perceptron network (RMLP) network consists of cascaded subnetworks, each of which contains multiple layers of nodes.  Each of

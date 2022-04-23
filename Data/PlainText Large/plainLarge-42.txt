@@ -1,0 +1,7 @@
+re, while others are purely software and run on general purpose computers.
+Some of the main breakthroughs include: convolutional neural networks that have proven particularly successful in processing visual and other two-dimensional data; long short-term memory avoid the vanishing gradient problem and can handle signals that have a mix of low and high frequency components aiding large-vocabulary speech recognition, text-to-speech synthesis, and photo-real talking heads; competitive networks such as generative adversarial networks in which multiple networks (of varying structure) compete with each other, on tasks such as winning a game or on deceiving the opponent about the authenticity of an input.
+
+
+== Network design ==
+
+Neural architecture search (NAS) uses machine learning to automate ANN design. Various approaches to NAS have designed networks that compare well with hand-designed systems. The basic search algorithm is to propose a candidate model, evaluate it against a dataset and use the results as feedb

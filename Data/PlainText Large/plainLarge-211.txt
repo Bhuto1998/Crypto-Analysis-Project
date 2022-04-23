@@ -1,0 +1,35 @@
+                )
+                        
+                      
+                      )
+                    
+                    ,
+                    
+                    g
+                    ⁡
+                    
+                      (
+                      
+                        x
+                        
+                          (
+                          j
+                          )
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+                
+                
+                  is large
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\text{if}}\,i=j\,{\text{then}}&\,\operatorname {\delta } \left[\operatorname {f} \left(x^{(i)}\right),\,\operatorname {g} \left(x^{(j)}\right)\right]\,{\text{is small}}\\{\text{otherwise}}&\,\operatorname {\delta } \left[\operatorname {f} \left(x^{(i)}\right),\,\operatorname {g} \left(x^{(j)}\right)

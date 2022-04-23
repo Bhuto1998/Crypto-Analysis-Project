@@ -1,0 +1,14 @@
+mations of the input images, which delivers excellent performance on the MNIST data set. Using stochastic pooling in a multilayer model gives an exponential number of deformations since the selections in higher layers are independent of those below.
+
+
+==== Artificial data ====
+
+Because the degree of model overfitting is determined by both its power and the amount of training it receives, providing a convolutional network with more training examples can reduce overfitting. Because these networks are usually trained with all available data, one approach is to either generate new data from scratch (if possible) or perturb existing data to create new ones. For example, input images can be cropped, rotated, or rescaled to create new examples with the same labels as the original training set.
+
+
+=== Explicit ===
+
+
+==== Early stopping ====
+
+One of the simplest methods to prevent overfitting of a network is to simply stop the training before overfitting has had a chance to occur. It comes with the disadvantage that th

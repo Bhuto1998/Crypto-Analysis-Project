@@ -1,0 +1,5 @@
+ BrainScaleS system contains 20 8-inch silicon wafers in 180 nm process technology. Each wafer incorporates 50 x 106 plastic synapses and 200,000 biologically realistic neurons. The system does not execute pre-programmed code but evolves according to the physical properties of the electronic devices, running at up to 10 thousand times faster than real time.
+
+
+== Benchmarks ==
+Classification capabilities of spiking networks trained according to unsupervised learning methods have been tested on the common benchmark datasets, such as, Iris, Wisconsin Breast Cancer or Statlog Landsat dataset. Various approaches to information encoding and network design have been used. For example, a 2-layer feedforward network for data clustering and classification. Based on the idea proposed in Hopfield (1995) the authors implemented models of local receptive fields combining the properties of radial basis functions (RBF) and spiking neurons to convert input signals (classified data) having a floating-point representation into 

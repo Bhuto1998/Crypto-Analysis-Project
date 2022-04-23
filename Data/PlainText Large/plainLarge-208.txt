@@ -1,0 +1,75 @@
+      i
+            )
+          
+        
+        ,
+        
+          
+            x
+          
+          
+            (
+            j
+            )
+          
+        
+        )
+        ≈
+        (
+        
+          
+            x
+          
+          
+            (
+            i
+            )
+          
+        
+        −
+        
+          
+            x
+          
+          
+            (
+            j
+            )
+          
+        
+        
+          )
+          
+            T
+          
+        
+        
+          M
+        
+        (
+        
+          
+            x
+          
+          
+            (
+            i
+            )
+          
+        
+        −
+        
+          
+            x
+          
+          
+            (
+            j
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle \operatorname {\delta } (\mathbf {x} ^{(i)},\mathbf {x} ^{(j)})\approx (\mathbf {x} ^{(i)}-\mathbf {x} ^{(j)})^{T}\mathbf {M} (\mathbf {x} ^{(i)}-\mathbf {x} ^{(j)})}
+  This can be furt

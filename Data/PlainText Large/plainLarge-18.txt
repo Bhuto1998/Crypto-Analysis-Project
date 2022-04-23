@@ -1,0 +1,12 @@
+ffer best approximation properties and have been applied in nonlinear system identification and classification applications.Deep learning feedforward networks alternate convolutional layers and max-pooling layers, topped by several pure classification layers. Fast GPU-based implementations of this approach have won several pattern recognition contests, including the IJCNN 2011 Traffic Sign Recognition Competition and the  ISBI 2012 Segmentation of Neuronal Structures in Electron Microscopy Stacks challenge. Such neural networks also were the first artificial pattern recognizers to achieve human-competitive or even superhuman performance on benchmarks such as traffic sign recognition (IJCNN 2012), or the MNIST handwritten digits problem of Yann LeCun and colleagues at NYU.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+
+A Brief Introduction to Neural Networks (D. Kriesel) - Illustrated, bilingual manuscript about artificial neural networks; Topics so far: Perceptrons, Backpropagation, Radial Basis 

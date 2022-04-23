@@ -1,0 +1,47 @@
+he agent performs an action and the environment generates an observation and an instantaneous cost, according to some (usually unknown) rules. The rules and the long-term cost usually only can be estimated. At any juncture, the agent decides whether to explore new actions to uncover their costs or to exploit prior learning to proceed more quickly.
+Formally the environment is modeled as a Markov decision process (MDP) with states 
+  
+    
+      
+        
+          
+            
+              s
+              
+                1
+              
+            
+            ,
+            .
+            .
+            .
+            ,
+            
+              s
+              
+                n
+              
+            
+          
+          ∈
+          S
+        
+      
+    
+    {\displaystyle \textstyle {s_{1},...,s_{n}}\in S}
+   and actions 
+  
+    
+      
+        
+          
+            
+              a
+              
+                1
+              
+            
+            ,
+            .
+            .
+            

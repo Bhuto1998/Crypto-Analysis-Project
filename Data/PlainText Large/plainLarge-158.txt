@@ -1,0 +1,59 @@
+   
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle f(x)={\begin{cases}x&{\text{if }}x>0,\\ax&{\text{otherwise}}.\end{cases}}}
+  Note that for a ≤ 1, this is equivalent to
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        max
+        (
+        x
+        ,
+        a
+        x
+        )
+      
+    
+    {\displaystyle f(x)=\max(x,ax)}
+  and thus has a relation to "maxout" networks.
+
+
+=== Non-linear variants ===
+
+
+==== Gaussian Error Linear Unit (GELU) ====
+GELU is a smooth approximation to the rectifier. It has a non-monotonic “bump” when x < 0, and it serves as the default activation for models such as BERT.
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        x
+        ⋅
+        Φ
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)=x\cdot \Phi (x)}
+  ,
+where Φ(x) is the cumulative distribution function of the standard normal distribution.
+This activation function is illustr

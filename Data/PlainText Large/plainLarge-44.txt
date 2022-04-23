@@ -1,0 +1,9 @@
+algorithm are selected appropriately, the resulting ANN can become robust.ANN capabilities fall within the following broad categories:
+Function approximation, or regression analysis, including time series prediction, fitness approximation and modeling.
+Classification, including pattern and sequence recognition, novelty detection and sequential decision making.
+Data processing, including filtering, clustering, blind source separation and compression.
+Robotics, including directing manipulators and prostheses.
+
+
+== Applications ==
+Because of their ability to reproduce and model nonlinear processes, artificial neural networks have found applications in many disciplines. Application areas include system identification and control (vehicle control, trajectory prediction, process control, natural resource management), quantum chemistry, general game playing, pattern recognition (radar systems, face identification, signal classification, 3D reconstruction, object recognition and more), sensor data analysis, sequence 

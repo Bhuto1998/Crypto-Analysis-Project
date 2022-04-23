@@ -1,0 +1,38 @@
+ the transition distribution 
+  
+    
+      
+        
+          P
+          (
+          
+            s
+            
+              t
+              +
+              1
+            
+          
+          
+            |
+          
+          
+            s
+            
+              t
+            
+          
+          ,
+          
+            a
+            
+              t
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \textstyle P(s_{t+1}|s_{t},a_{t})}
+  , while a policy is defined as the conditional distribution over actions given the observations. Taken together, the two define a Markov chain (MC). The aim is to discover the lowest-cost MC.
+ANNs serve as the learning component in such applications. Dynamic programming coupled with ANNs (giving neurodynamic programming) has been applied to problems such as those involved in vehicle routing, video games, natural resource management and medicine because of ANNs ability to mitigate losses of accuracy even when reducing the discretization g

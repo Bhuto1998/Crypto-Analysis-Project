@@ -1,0 +1,40 @@
+hat stage. The removed nodes are then reinserted into the network with their original weights.
+In the training stages, 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   is usually 0.5; for input nodes, it is typically much higher because information is directly lost when input nodes are ignored.
+At testing time after training has finished, we would ideally like to find a sample average of all possible 
+  
+    
+      
+        
+          2
+          
+            n
+          
+        
+      
+    
+    {\displaystyle 2^{n}}
+   dropped-out networks; unfortunately this is unfeasible for large values of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  . However, we can find an approximation by using the full network with each node's output weighted by a factor of 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  , so the expected value of the output of any node is the same as in the training stages. This is the biggest contribution of the dropout method: although it effectively g

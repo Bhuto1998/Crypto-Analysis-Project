@@ -1,0 +1,28 @@
+In the context of artificial neural networks, the rectifier or ReLU (Rectified Linear Unit) activation function is an activation function defined as the positive part of its argument:
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            +
+          
+        
+        =
+        max
+        (
+        0
+        ,
+        x
+        )
+      
+    
+    {\displaystyle f(x)=x^{+}=\max(0,x)}
+  where x is the input to a neuron. This is also known as a ramp function and is analogous to half-wave rectification in electrical engineering.
+This activation function started showing up in the context of visual feature extraction in hierarchical neural networks starting in the late 1960s. It was later argued that it  has  strong biological motivations and mathematical justifications. In 2011 it was found to enable better training of deeper networks, compared to the widely used activation functions prior to 2011, e.g., the logistic sigmoid (which is inspired by probability t

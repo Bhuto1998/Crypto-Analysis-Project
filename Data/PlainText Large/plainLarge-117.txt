@@ -1,0 +1,18 @@
+le (hidden) layer is connected to these context units fixed with a weight of one. At each time step, the input is fed forward and a learning rule is applied. The fixed back-connections save a copy of the previous values of the hidden units in the context units (since they propagate over the connections before the learning rule is applied). Thus the network can maintain a sort of state, allowing it to perform such tasks as sequence-prediction that are beyond the power of a standard multilayer perceptron.
+Jordan networks are similar to Elman networks. The context units are fed from the output layer instead of the hidden layer. The context units in a Jordan network are also referred to as the state layer. They have a recurrent connection to themselves.Elman and Jordan networks are also known as "Simple recurrent networks" (SRN).
+
+Elman network
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  h
+                  
+                    t
+                  
+          

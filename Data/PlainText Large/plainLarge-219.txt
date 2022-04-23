@@ -1,0 +1,33 @@
+   
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathbf {w} _{j}}
+   – real row in the weight matrix before dropout
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  w
+                
+                
+                  j
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {w} _{j}}}}
+   – diluted row in the weight matrixBecause dropout removes a whole row from the vector matrix, the previous (unlisted) assumptions for weak dilution and the use of mean field theory are not applicable.
+The process by which the node is driven to zero, whether by setting the weights to zero, by “removing the node”, or by some other means, does not impact the end result and does not create a new and unique case. If the neural net is processed by a high-performance digital array-multiplicator, then it is likely more effective to drive the value to zero late in the process graph

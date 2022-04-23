@@ -1,0 +1,6 @@
+rough a lengthy discussion.	
+In 1972, Barlow announced the single neuron revolution: "our perceptions are caused by the activity of a rather small number of neurons selected from a very large population of predominantly silent cells." This approach was stimulated by the idea of grandmother cell put forward two years earlier. Barlow formulated "five dogmas" of neuron doctrine.  Recent studies of 'grandmother cell' and sparse coding phenomena develop and modify these ideas. The single cell experiments  used intracranial electrodes in the medial temporal lobe (the hippocampus and surrounding cortex). Modern development of concentration of measure theory (stochastic separation theorems) with applications to artificial neural networks give mathematical background to unexpected effectiveness of small neural ensembles in high-dimensional brain.
+
+
+== Clinical significance ==
+Sometimes neural circuitries can become pathological and cause problems such as in Parkinson's disease when the basal ganglia are involved. Prob

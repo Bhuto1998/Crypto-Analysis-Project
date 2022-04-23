@@ -1,0 +1,10 @@
+unction which is non-differentiable because neuron's output is either 1 when it spikes, and 0 otherwise. This all-or-nothing behavior of the binary spiking nonlinearity stops gradients from “flowing” and makes LIF neurons unsuitable for gradient-based optimization. The second challenge concerns the implementation of the optimization algorithm itself. Standard BP can be expensive in terms of computation, memory, and communication and may be poorly suited to the constraints dictated by the hardware that implements it (e.g., a computer, brain, or neuromorphic device).  Regarding the first challenge there are several approached in order to overcome it. A few of them are:
+
+resorting to entirely biologically inspired local learning rules for the hidden units
+translating conventionally trained “rate-based” NNs to SNNs
+smoothing the network model to be continuously differentiable
+defining an SG (Surogate Gradient) as a continuous relaxation of the real gradients
+
+
+== Applications ==
+SNNs can in principle apply to the

@@ -1,0 +1,47 @@
+     
+            
+            +
+            ⋯
+            +
+            
+              e
+              
+                
+                  x
+                  
+                    n
+                  
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \operatorname {LSE} (x_{1},\dots ,x_{n})=\log \left(e^{x_{1}}+\cdots +e^{x_{n}}\right),}
+  and its gradient is the softmax; the softmax with the first argument set to zero is the multivariable generalization of the logistic function. Both LogSumExp and softmax are used in machine learning.
+
+
+==== ELU ====
+Exponential linear units try to make the mean activations closer to zero, which speeds up learning. It has been shown that ELUs can obtain higher classification accuracy than ReLUs.
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  x
+                
+                
+                

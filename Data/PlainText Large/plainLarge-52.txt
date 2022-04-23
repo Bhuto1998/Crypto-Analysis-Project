@@ -1,0 +1,23 @@
+ j
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle y_{i}={\frac {e^{x_{i}}}{\sum _{j=1}^{c}e^{x_{j}}}}}
+  
+
+
+== Criticism ==
+
+
+=== Training ===
+A common criticism of neural networks, particularly in robotics, is that they require too much training for real-world operation. Potential solutions include randomly shuffling training examples, by using a numerical optimization algorithm that does not take too large steps when changing the network connections following an example, grouping examples in so-called mini-batches and/or introducing a recursive least squares algorithm for CMAC.
+
+
+=== Theory ===
+A fundamental objection is that ANNs do not sufficiently reflect neuronal function. Backpropagation is a critical step, although no such mechanism exists in biological neural networks. How information is coded by real neurons is not known. Sensor neurons fire action potentials more frequently with sensor activation and muscle cel

@@ -1,0 +1,49 @@
+her subdivided in at least Unsupervised learning and Supervised learning.
+
+
+=== Learned metrics, half-twin networks ===
+This form also allows the twin network to be more of a half-twin, implementing a slightly different functions
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  if
+                
+                
+                i
+                =
+                j
+                
+                
+                  then
+                
+              
+              
+                
+                
+                  δ
+                
+                ⁡
+                
+                  [
+                  
+                    f
+                    ⁡
+                    
+                      (
+                      
+                        x
+                        
+                          (
+                          i
+                          )
+                        
+                      
+                      )
+                    
+               

@@ -1,0 +1,10 @@
+ level.
+
+
+=== Connectivity ===
+
+In August 2020 scientists reported that bi-directional connections, or added appropriate feedback connections, can accelerate and improve communication between and in modular neural networks of the brain's cerebral cortex and lower the threshold for their successful communication. They showed that adding feedback connections between a resonance pair can support successful propagation of a single pulse packet throughout the entire network.
+
+
+== Criticism ==
+A common criticism of neural networks, particularly in robotics, is that they require a large diversity of training samples for real-world operation. This is not surprising, since any learning machine needs sufficient representative examples in order to capture the underlying structure that allows it to generalize to new cases. Dean Pomerleau, in his research presented in the paper "Knowledge-based Training of Artificial Neural Networks for Autonomous Robot Driving," uses a neural network to train a robotic vehicle to drive o

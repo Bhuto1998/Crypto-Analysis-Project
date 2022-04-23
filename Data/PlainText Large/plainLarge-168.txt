@@ -1,0 +1,9 @@
+a differential equation) is normally considered to be the neuron's state, with incoming spikes pushing this value higher or lower, until the state eventually either decays or  - if the firing threshold is reached - the neuron fires. After firing the state variable is reset to a lower value.
+Various decoding methods exist for interpreting the outgoing spike train as a real-value number, relying on either the frequency of spikes (rate-code), the time-to-first-spike after stimulation, or the interval between spikes.
+
+
+== History ==
+
+Many multi-layer artificial neural networks are fully connected, receiving input from every neuron in the previous layer and signalling every neuron in the subsequent layer. Although these networks have achieved breakthroughs in many fields, they are biologically inaccurate and do not mimic the operation mechanism of neurons in the brain of a living thing.
+
+The biologically-inspired Hodgkin–Huxley model of a spiking neuron was proposed  in 1952. This model describes how action potent

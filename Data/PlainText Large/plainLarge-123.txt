@@ -1,0 +1,11 @@
+erform as robust content-addressable memory, resistant to connection alteration.
+
+
+==== Bidirectional associative memory ====
+
+Introduced by Bart Kosko, a bidirectional associative memory (BAM) network is a variant of a Hopfield network that stores associative data as a vector. The bi-directionality comes from passing information through a matrix and its transpose. Typically, bipolar encoding is preferred to binary encoding of the associative pairs. Recently, stochastic BAM models using Markov stepping were optimized for increased network stability and relevance to real-world applications.A BAM network has two layers, either of which can be driven as an input to recall an association and produce an output on the other layer.
+
+
+=== Echo state ===
+
+The echo state network (ESN) has a sparsely connected random hidden layer. The weights of output neurons are the only part of the network that can change (be trained). ESNs are good at reproducing certain time series. A variant for spiking neurons is known as a liqui

@@ -1,0 +1,10 @@
+ most common global optimization method for training RNNs is genetic algorithms, especially in unstructured networks.Initially, the genetic algorithm is encoded with the neural network weights in a predefined manner where one gene in the chromosome represents one weight link. The whole network is represented as a single chromosome. The fitness function is evaluated as follows:
+
+Each weight encoded in the chromosome is assigned to the respective weight link of the network.
+The training set is presented to the network which propagates the input signals forward.
+The mean-squared-error is returned to the fitness function.
+This function drives the genetic selection process.Many chromosomes make up the population; therefore, many different neural networks are evolved until a stopping criterion is satisfied. A common stopping scheme is: 
+
+When the neural network has learnt a certain percentage of the training data or
+When the minimum value of the mean-squared-error is satisfied or
+When the maximum number of training

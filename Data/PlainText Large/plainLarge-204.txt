@@ -1,0 +1,48 @@
+           j
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle \operatorname {\delta } (\mathbf {x} ^{(i)},\mathbf {x} ^{(j)})\approx (\mathbf {x} ^{(i)}-\mathbf {x} ^{(j)})^{T}(\mathbf {x} ^{(i)}-\mathbf {x} ^{(j)})}
+  
+
+
+=== Learned metrics, nonlinear distance metric ===
+A more general case is where the output vector from the twin network is passed through additional network layers implementing non-linear distance metrics.
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  if
+                
+                
+                i
+                =
+                j
+                
+                
+                  then
+                
+              
+              
+                
+                
+                  δ
+                
+                ⁡
+                
+                  [
+                  
+                    f
+                    ⁡
+                    
+                      (
+                      
+                   

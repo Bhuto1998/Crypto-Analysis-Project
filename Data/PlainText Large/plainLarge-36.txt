@@ -1,0 +1,70 @@
+.
+            ,
+            
+              a
+              
+                m
+              
+            
+          
+          ∈
+          A
+        
+      
+    
+    {\displaystyle \textstyle {a_{1},...,a_{m}}\in A}
+  . Because the state transitions are not known, probability distributions are used instead: the instantaneous cost distribution 
+  
+    
+      
+        
+          P
+          (
+          
+            c
+            
+              t
+            
+          
+          
+            |
+          
+          
+            s
+            
+              t
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \textstyle P(c_{t}|s_{t})}
+  , the observation distribution 
+  
+    
+      
+        
+          P
+          (
+          
+            x
+            
+              t
+            
+          
+          
+            |
+          
+          
+            s
+            
+              t
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \textstyle P(x_{t}|s_{t})}
+   and

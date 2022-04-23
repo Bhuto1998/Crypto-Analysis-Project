@@ -1,0 +1,13 @@
+ different classes which is more difficult than the originally proposed key-word spotting task on only a subset of 12 classes (ten key-words, unknown word, and silence). However, the data can still be used in the originally intended keyword spotting way. 
+
+
+== Software ==
+A diverse range of application software can simulate SNNs. This software can be classified according to its uses:
+
+
+=== SNN simulation ===
+ These simulate complex neural models with a high level of detail and accuracy. Large networks usually require lengthy processing. Candidates include:BindsNET – developed by the Biologically Inspired Neural and Dynamical Systems (BINDS) lab at the University of Massachusetts Amherst.
+Brian – developed by Romain Brette and Dan Goodman at the École Normale Supérieure;
+GENESIS (the GEneral NEural SImulation System) – developed in James Bower's laboratory at Caltech;
+NEST – developed by the NEST Initiative;
+NEURON – mainly developed by Michael Hines, John W. Moore and Ted Carnevale in Yale University and Duke
