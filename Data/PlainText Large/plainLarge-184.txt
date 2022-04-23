@@ -1,0 +1,6 @@
+A neural circuit is a population of neurons interconnected by synapses to carry out a specific function when activated. Neural circuits interconnect to one another to form large scale brain networks. Biological neural networks have inspired the design of artificial neural networks, but artificial neural networks are usually not strict copies of their biological counterparts.
+
+
+== Early study ==
+
+Early treatments of neural networks can be found in Herbert Spencer's Principles of Psychology, 3rd edition (1872), Theodor Meynert's Psychiatry (1884), William James' Principles of Psychology (1890), and Sigmund Freud's Project for a Scientific Psychology (composed 1895). The first rule of neuronal learning was described by Hebb in 1949, in the Hebbian theory. Thus, Hebbian pairing of pre-synaptic and post-synaptic activity can substantially alter the dynamic characteristics of the synaptic connection and therefore either facilitate or inhibit signal transmission. In 1959, the neuroscientists, Warren Sturgis McCulloc

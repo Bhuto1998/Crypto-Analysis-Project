@@ -1,0 +1,85 @@
+splaystyle x}
+   it is about 
+  
+    
+      
+        
+          e
+          
+            x
+          
+        
+      
+    
+    {\displaystyle e^{x}}
+   so just above 0, while for large positive 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   about 
+  
+    
+      
+        x
+        +
+        
+          e
+          
+            −
+            x
+          
+        
+      
+    
+    {\displaystyle x+e^{-x}}
+   so just above 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  . 
+A sharpness parameter 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   may be included:
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            
+              ln
+              ⁡
+              
+                (
+                
+                  1
+                  +
+                  
+                    e
+                    
+                      k
+                      x
+                    
+                  
+                
+                )
+             

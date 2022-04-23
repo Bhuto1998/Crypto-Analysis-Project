@@ -1,0 +1,11 @@
+ion ====
+
+Backpropagation is a method used to adjust the connection weights to compensate for each error found during learning. The error amount is effectively divided among the connections. Technically, backprop calculates the gradient (the derivative) of the cost function associated with a given state with respect to the weights. The weight updates can be done via stochastic gradient descent or other methods, such as Extreme Learning Machines, "No-prop" networks, training without backtracking, "weightless" networks, and non-connectionist neural networks.
+
+
+=== Learning paradigms ===
+The three major learning paradigms are supervised learning, unsupervised learning and reinforcement learning. They each correspond to a particular learning task
+
+
+==== Supervised learning ====
+Supervised learning uses a set of paired inputs and desired outputs. The learning task is to produce the desired output for each input. In this case the cost function is related to eliminating incorrect deductions. A commonly used cost is 

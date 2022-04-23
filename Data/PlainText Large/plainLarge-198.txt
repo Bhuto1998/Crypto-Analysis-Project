@@ -1,0 +1,88 @@
+he weights, or some similar operation like a normalization.
+A distance metric for a loss function may have the following properties
+Non-negativity: 
+  
+    
+      
+        δ
+        (
+        x
+        ,
+        y
+        )
+        ≥
+        0
+      
+    
+    {\displaystyle \delta (x,y)\geq 0}
+  
+Identity of Discernible: 
+  
+    
+      
+        δ
+        (
+        x
+        ,
+        y
+        )
+        =
+        0
+        
+        ⟺
+        
+        x
+        =
+        y
+      
+    
+    {\displaystyle \delta (x,y)=0\iff x=y}
+  
+Symmetry: 
+  
+    
+      
+        δ
+        (
+        x
+        ,
+        y
+        )
+        =
+        δ
+        (
+        y
+        ,
+        x
+        )
+      
+    
+    {\displaystyle \delta (x,y)=\delta (y,x)}
+  
+Triangle inequality: 
+  
+    
+      
+        δ
+        (
+        x
+        ,
+        z
+        )
+        ≤
+        δ
+        (
+        x
+        ,
+        y
+        )
+        +
+        δ
+        (
+        y
+        ,
+        z
+        )
+      
+    
+    {\displaystyle \del

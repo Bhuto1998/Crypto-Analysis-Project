@@ -1,0 +1,2 @@
+t could be −1 and 1.
+These artif

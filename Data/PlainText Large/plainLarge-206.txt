@@ -1,0 +1,44 @@
+               f
+                    ⁡
+                    
+                      (
+                      
+                        x
+                        
+                          (
+                          i
+                          )
+                        
+                      
+                      )
+                    
+                    ,
+                    
+                    f
+                    ⁡
+                    
+                      (
+                      
+                        x
+                        
+                          (
+                          j
+                          )
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+                
+                
+                  is large
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\text{if}}\,i=j\,{\text{then}}&\,\operatorname {\delta } \left[\operatorname

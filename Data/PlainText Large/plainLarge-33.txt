@@ -1,0 +1,71 @@
+
+    
+      
+        
+          f
+          (
+          x
+          )
+          =
+          a
+        
+      
+    
+    {\displaystyle \textstyle f(x)=a}
+   where 
+  
+    
+      
+        
+          a
+        
+      
+    
+    {\displaystyle \textstyle a}
+   is a constant and the cost 
+  
+    
+      
+        
+          C
+          =
+          E
+          [
+          (
+          x
+          −
+          f
+          (
+          x
+          )
+          
+            )
+            
+              2
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \textstyle C=E[(x-f(x))^{2}]}
+  . Minimizing this cost produces a value of 
+  
+    
+      
+        
+          a
+        
+      
+    
+    {\displaystyle \textstyle a}
+   that is equal to the mean of the data. The cost function can be much more complicated. Its form depends on the application: for example, in compression it could be related to the mutual information between 
+  
+    
+      
+        
+          x
+        
+      
+    
+    {\displaystyle \t

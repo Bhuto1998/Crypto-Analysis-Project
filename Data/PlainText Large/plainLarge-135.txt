@@ -1,0 +1,16 @@
+machines ===
+
+Neural Turing machines (NTMs) are a method of extending recurrent neural networks by coupling them to external memory resources which they can interact with by attentional processes. The combined system is analogous to a Turing machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent.
+
+
+=== Differentiable neural computer ===
+
+Differentiable neural computers (DNCs) are an extension of Neural Turing machines, allowing for the usage of fuzzy amounts of each memory address and a record of chronology.
+
+
+=== Neural network pushdown automata ===
+Neural network pushdown automata (NNPDA) are similar to NTMs, but tapes are replaced by analogue stacks that are differentiable and that are trained. In this way, they are similar in complexity to recognizers of context free grammars (CFGs).
+
+
+=== Memristive Networks ===
+Greg Snider of HP Labs describes a system of cortical computing with memristive nanodevices. The memristors (memory resi

@@ -1,0 +1,52 @@
+sponds to performing the parameter update as normal, and then enforcing the constraint by clamping the weight vector 
+  
+    
+      
+        
+          
+            
+              w
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {w}}}
+   of every neuron to satisfy 
+  
+    
+      
+        ‖
+        
+          
+            
+              w
+              →
+            
+          
+        
+        
+          ‖
+          
+            2
+          
+        
+        <
+        c
+      
+    
+    {\displaystyle \|{\vec {w}}\|_{2}<c}
+  . Typical values of 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   are order of 3–4. Some papers report improvements when using this form of regularization.
+
+
+== Hierarchical coordinate frames ==
+Pooling loses the precise spatial relationships between high-level parts (such as nose and mouth in a face image). These relationships are needed for identity recognition. Overlapping the pools so that each feature occurs in multiple pools, he

@@ -1,0 +1,80 @@
+implemented by the twin networkThe most common distance metric used is Euclidean distance, in case of which the loss function can be rewritten in matrix form as
+
+  
+    
+      
+        
+          δ
+        
+        ⁡
+        (
+        
+          
+            x
+          
+          
+            (
+            i
+            )
+          
+        
+        ,
+        
+          
+            x
+          
+          
+            (
+            j
+            )
+          
+        
+        )
+        ≈
+        (
+        
+          
+            x
+          
+          
+            (
+            i
+            )
+          
+        
+        −
+        
+          
+            x
+          
+          
+            (
+            j
+            )
+          
+        
+        
+          )
+          
+            T
+          
+        
+        (
+        
+          
+            x
+          
+          
+            (
+            i
+            )
+          
+        
+        −
+        
+          
+            x
+          
+          
+            (
+ 

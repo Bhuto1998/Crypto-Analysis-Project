@@ -1,0 +1,7 @@
+ity.
+Rate coding converts pixel intensity into a spike train where the number of spikes is proportional to the pixel intensity.
+Direct coding uses a trainable layer to generate float value for each time-step. We have a learnable layer which converts each pixel at certain time step in float number and then threshold is used on the generated floating numbers to see if they will be 1 or 0.
+Phase coding encodes temporal information into spike patterns based on a global oscillator.
+Burst coding transmits the burst of spikes in a small-time duration, increasing the reliability of synaptic communication between neurons.Currently there are two classification data sets  for SNNs to be used as a reference for future performance comparisons of spiking neural networks. So far MNIST data transformed into spikes has been used, but it had designer choices which weren’t universally agreed on. For rate based encoding networks, MNIST can be used, but the capabilities of SNN go beyond rate encoding.  
+
+The first data set is cal

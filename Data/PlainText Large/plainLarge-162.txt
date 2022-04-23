@@ -1,0 +1,75 @@
+ion is a smooth approximation of the derivative of the rectifier, the Heaviside step function.
+The multivariable generalization of single-variable softplus is the LogSumExp with the first argument set to zero:
+
+  
+    
+      
+        
+          
+            L
+            S
+            
+              E
+              
+                0
+              
+            
+          
+          
+            +
+          
+        
+        ⁡
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        :=
+        LSE
+        ⁡
+        (
+        0
+        ,
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        log
+        ⁡
+        
+          (
+          
+            1
+            +
+            
+              e
+              
+                
+                  x
+    

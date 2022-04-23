@@ -1,0 +1,45 @@
+pagation in neural networks in 1992. In 1993, such a system solved a "Very Deep Learning" task that required more than 1000 subsequent layers in an RNN unfolded in time.
+
+
+=== Second order RNNs ===
+Second order RNNs use higher order weights 
+  
+    
+      
+        w
+        
+          
+
+          
+          
+            i
+            j
+            k
+          
+        
+      
+    
+    {\displaystyle w{}_{ijk}}
+   instead of the standard 
+  
+    
+      
+        w
+        
+          
+
+          
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle w{}_{ij}}
+   weights, and states can be a product. This allows a direct mapping to a finite-state machine both in training, stability, and representation. Long short-term memory is an example of this but has no such formal mappings or proof of stability.
+
+
+=== Long short-term memory ===
+
+Long short-term memory (LSTM) is a deep learning system that avoids the vanishing gradient problem. LSTM is normally augmented by recurrent gates 

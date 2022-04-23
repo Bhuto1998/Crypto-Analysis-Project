@@ -1,0 +1,7 @@
+A feedforward neural network is an artificial neural network wherein connections between the nodes do not form a cycle. As such, it is different from its  descendant: recurrent neural networks.
+The feedforward neural network was the first and simplest type of artificial neural network devised. In this network, the information moves in only one direction—forward—from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network.
+
+
+== Single-layer perceptron ==
+
+The simplest kind of neural network is a single-layer perceptron network, which consists of a single layer of output nodes; the inputs are fed directly to the outputs via a series of weights. The sum of the products of the weights and the inputs is calculated in each node, and if the value is above some threshold (typically 0) the neuron fires and takes the activated value (typically 1); otherwise it takes the deactivated value (typically -1). Neurons with this kind of activation function are als

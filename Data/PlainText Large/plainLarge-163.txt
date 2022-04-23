@@ -1,0 +1,67 @@
+              
+                    1
+                  
+                
+              
+            
+            +
+            ⋯
+            +
+            
+              e
+              
+                
+                  x
+                  
+                    n
+                  
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \operatorname {LSE_{0}} ^{+}(x_{1},\dots ,x_{n}):=\operatorname {LSE} (0,x_{1},\dots ,x_{n})=\log \left(1+e^{x_{1}}+\cdots +e^{x_{n}}\right).}
+  The LogSumExp function is
+
+  
+    
+      
+        LSE
+        ⁡
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        log
+        ⁡
+        
+          (
+          
+            
+              e
+              
+                
+                  x
+                  
+                    1
+                  
+                
+         

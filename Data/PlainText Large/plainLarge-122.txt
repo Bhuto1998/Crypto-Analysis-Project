@@ -1,0 +1,73 @@
+_{t}}
+  : hidden layer vector
+
+  
+    
+      
+        
+          y
+          
+            t
+          
+        
+      
+    
+    {\displaystyle y_{t}}
+  : output vector
+
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  , 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+   and 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  : parameter matrices and vector
+
+  
+    
+      
+        
+          σ
+          
+            h
+          
+        
+      
+    
+    {\displaystyle \sigma _{h}}
+   and 
+  
+    
+      
+        
+          σ
+          
+            y
+          
+        
+      
+    
+    {\displaystyle \sigma _{y}}
+  : Activation functions
+
+
+=== Hopfield ===
+
+The Hopfield network is an RNN in which all connections across layers are equally sized. It requires stationary inputs and is thus not a general RNN, as it does not process sequences of patterns. However, it guarantees that it will converge. If the connections are trained using Hebbian learning then the Hopfield network can p

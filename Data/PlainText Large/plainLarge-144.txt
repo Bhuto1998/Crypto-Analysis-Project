@@ -1,0 +1,15 @@
+used to train and deploy deep neural networks.
+PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+TensorFlow: Apache 2.0-licensed Theano-like library with support for CPU, GPU and Google's proprietary TPU, mobile
+Theano: The reference deep-learning library for Python with an API largely compatible with the popular NumPy library. Allows user to write symbolic mathematical expressions, then automatically generates their derivatives, saving the user from having to code gradients or backpropagation. These symbolic expressions are automatically compiled to CUDA code for a fast, on-the-GPU implementation.
+Torch (www.torch.ch): A scientific computing framework with wide support for machine learning algorithms, written in C and lua. The main author is Ronan Collobert, and it is now used at Facebook AI Research and Twitter.
+
+
+== Applications ==
+Applications of recurrent neural networks include:
+
+Machine translation
+Robot control
+Time series prediction
+Speech recognition
+Speech synthes

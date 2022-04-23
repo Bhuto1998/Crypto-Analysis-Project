@@ -1,0 +1,33 @@
+number is not an integer, then the strides are incorrect and the neurons cannot be tiled to fit across the input volume in a symmetric way. In general, setting zero padding to be 
+  
+    
+      
+        P
+        =
+        (
+        K
+        −
+        1
+        )
+        
+          /
+        
+        2
+      
+    
+    {\textstyle P=(K-1)/2}
+   when the stride is 
+  
+    
+      
+        S
+        =
+        1
+      
+    
+    {\displaystyle S=1}
+   ensures that the input volume and output volume will have the same size spatially. However, it is not always completely necessary to use all of the neurons of the previous layer. For example, a neural network designer may decide to use just a portion of padding.
+
+
+==== Parameter sharing ====
+A parameter sharing scheme is used in convolutional layers to control the number of free parameters. It relies on the assumption that if a patch feature is useful to compute at some spatial position, then it should also be useful to compute at other positions. Denoting a single 2

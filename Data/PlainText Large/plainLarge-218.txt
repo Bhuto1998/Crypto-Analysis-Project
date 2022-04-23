@@ -1,0 +1,56 @@
+aystyle w_{ij}}
+   – real weight before dilution, also called the Hebb connection strength
+
+  
+    
+      
+        
+          ⟨
+          
+            S
+            
+              j
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \left\langle S_{j}\right\rangle }
+   – the mean stable equilibrium statesThere are some assumptions for this to hold, which are not listed here.
+
+
+== Strong dilution ==
+When the dilution is strong, the finite fraction of removed connections (the weights) is large, giving rise to a huge uncertainty.
+
+
+== Dropout ==
+Dropout is a special case of the previous weight equation (3), where the aforementioned equation is adjusted to remove a whole row in the vector matrix, and not only random weights
+
+  
+    
+      
+        P
+        (
+        c
+        )
+      
+    
+    {\displaystyle P(c)}
+   – the probability 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   to keep a row in the weight matrix
+
+  
+    
+      
+        
+          
+            w
+       

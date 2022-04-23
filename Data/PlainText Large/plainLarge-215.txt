@@ -1,0 +1,83 @@
+t from node 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+
+  
+    
+      
+        
+          w
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle w_{ij}}
+   – real weight before dilution, also called the Hebb connection strength
+
+  
+    
+      
+        
+          x
+          
+            j
+          
+        
+      
+    
+    {\displaystyle x_{j}}
+   – input from node 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  This can be written in vector notation as
+
+  
+    
+      
+        
+          y
+        
+      
+    
+    {\displaystyle \mathbf {y} }
+   – output vector
+
+  
+    
+      
+        
+          W
+        
+      
+    
+    {\displaystyle \mathbf {W} }
+   – weight matrix
+
+  
+    
+      
+        
+          x
+        
+      
+    
+    {\displaystyle \mathbf {x} }
+   – input vectorEquations (1) and (2) are used in the subsequent sections.
+
+
+== Weak dilution ==
+During weak dilution, the finite fraction of removed connections (the weights) is sma

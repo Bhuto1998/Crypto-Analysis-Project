@@ -1,0 +1,82 @@
+     t
+        )
+      
+    
+    {\displaystyle \tau _{i}{\dot {y}}_{i}=-y_{i}+\sum _{j=1}^{n}w_{ji}\sigma (y_{j}-\Theta _{j})+I_{i}(t)}
+  Where:
+
+  
+    
+      
+        
+          τ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \tau _{i}}
+   : Time constant of postsynaptic node
+
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+    {\displaystyle y_{i}}
+   : Activation of postsynaptic node
+
+  
+    
+      
+        
+          
+            
+              
+                y
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\dot {y}}_{i}}
+   : Rate of change of activation of postsynaptic node
+
+  
+    
+      
+        w
+        
+          
+
+          
+          
+            j
+            i
+          
+        
+      
+    
+    {\displaystyle w{}_{ji}}
+   : Weight of connection from pre to postsynaptic node
+
+  
+    
+      
+        σ
+        (
+        x
+        )
+ 

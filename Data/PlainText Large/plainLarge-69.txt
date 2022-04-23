@@ -1,0 +1,11 @@
+CNNs trained by gradient descent ===
+A system to recognize hand-written ZIP Code numbers involved convolutions in which the kernel coefficients had been laboriously hand designed.Yann LeCun et al. (1989) used back-propagation to learn the convolution kernel coefficients directly from images of hand-written numbers. Learning was thus fully automatic, performed better than manual coefficient design, and was suited to a broader range of image recognition problems and image types.
+This approach became a foundation of modern computer vision.
+
+
+==== LeNet-5 ====
+
+LeNet-5, a pioneering 7-level convolutional network by LeCun et al. in 1998, that classifies digits, was applied by several banks to recognize hand-written numbers on checks (British English: cheques) digitized in 32x32 pixel images. The ability to process higher-resolution images requires larger and more layers of convolutional neural networks, so this technique is constrained by the availability of computing resources.
+
+
+=== Shift-invariant neural networ

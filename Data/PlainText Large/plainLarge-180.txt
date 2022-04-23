@@ -1,0 +1,6 @@
+l of domains. Simulations show that arrays of ferroelectric nanosynapses can autonomously learn to recognize patterns in a predictable way, opening the path towards unsupervised learning.
+
+Brainchip's Akida NSoC claims to have effectively 1.2 million neurons and 10 billion synapses
+Neurogrid is a board that can simulate spiking neural networks directly in hardware. (Stanford University)
+SpiNNaker (Spiking Neural Network Architecture) uses ARM processors as the building blocks of a massively parallel computing platform based on a six-layer thalamocortical model. (University of Manchester) The SpiNNaker system is based on numerical models running in real time on custom digital multicore chips using the ARM architecture. It provides custom digital chips, each with eighteen cores and a shared local 128 Mbyte RAM, with a total of over 1,000,000 cores. A single chip can simulate 16,000 neurons with eight million plastic synapses running in real time.
+TrueNorth is a processor that contains 5.4 billion transistors th

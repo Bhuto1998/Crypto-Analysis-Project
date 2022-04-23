@@ -1,0 +1,15 @@
+ 3x3 kernels would receive a 2-pixel pad on all sides of the image.
+
+
+=== Stride ===
+The stride is the number of pixels that the analysis window moves on each iteration. A stride of 2 means that each kernel is offset by 2 pixels from its predecessor.
+
+
+=== Number of filters ===
+Since feature map size decreases with depth, layers near the input layer tend to have fewer filters while higher layers can have more. To equalize computation at each layer, the product of feature values va with pixel position is kept roughly constant across layers. Preserving more information about the input would require keeping the total number of activations (number of feature maps times number of pixel positions) non-decreasing from one layer to the next.
+The number of feature maps directly controls the capacity and depends on the number of available examples and task complexity.
+
+
+=== Filter size ===
+Common filter sizes found in the literature vary greatly, and are usually chosen based on the data set.
+The challenge is to find th

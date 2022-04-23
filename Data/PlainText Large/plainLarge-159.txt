@@ -1,0 +1,75 @@
+ated in the figure at the start of this article.
+
+
+==== SiLU ====
+
+The SiLU (Sigmoid Linear Unit) or swish function is another smooth approximation first coined in the GELU paper. 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        x
+        ⋅
+        sigmoid
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)=x\cdot \operatorname {sigmoid} (x)}
+  
+where 
+  
+    
+      
+        sigmoid
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle \operatorname {sigmoid} (x)}
+   is the sigmoid function.
+
+
+==== Softplus ====
+A smooth approximation to the rectifier is the analytic function
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        ln
+        ⁡
+        (
+        1
+        +
+        
+          e
+          
+            x
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle f(x)=\ln(1+e^{x}),}
+  which is called the softplus or SmoothReLU function.  For large negative 
+  
+    
+      
+        x
+      
+    
+    {\di

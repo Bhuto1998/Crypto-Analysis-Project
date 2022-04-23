@@ -1,0 +1,25 @@
+storically but has recently fallen out of favor compared to max pooling, which generally performs better in practice.Due to the effects of fast spatial reduction of the size of the representation, there is a recent trend towards using smaller filters or discarding pooling layers altogether.
+
+"Region of Interest" pooling (also known as RoI pooling) is a variant of max pooling, in which output size is fixed and input rectangle is a parameter.Pooling is a downsampling method and an important component of convolutional neural networks for object detection based on the Fast R-CNN architecture. 
+
+
+=== ReLU layer ===
+ReLU is the abbreviation of rectified linear unit, which applies the non-saturating activation function 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        max
+        (
+        0
+        ,
+        x
+        )
+      
+    
+    {\textstyle f(x)=\max(0,x)}
+  . It effectively removes negative values from an activation map by setting them to zero. It introduces nonlinearities to the dec

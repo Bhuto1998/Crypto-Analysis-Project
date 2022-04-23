@@ -1,0 +1,8 @@
+paper Intelligent Machinery in which he called them "B-type unorganised machines".The utility of artificial neural network models lies in the fact that they can be used to infer a function from observations and also to use it. Unsupervised neural networks can also be used to learn representations of the input that capture the salient characteristics of the input distribution, e.g., see the Boltzmann machine (1983), and more recently, deep learning algorithms, which can implicitly learn the distribution function of the observed data. Learning in neural networks is particularly useful in applications where the complexity of the data or task makes the design of such functions by hand impractical.
+
+
+== Applications ==
+Neural networks can be used in different fields. The tasks to which artificial neural networks are applied tend to fall within the following broad categories:
+
+Function approximation, or regression analysis, including time series prediction and modeling.
+Classification, including pattern and sequenc

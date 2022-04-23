@@ -1,0 +1,78 @@
+    {\displaystyle a\geq 0}
+   is a constraint.
+The ELU can be viewed as a smoothed version of a shifted ReLU (SReLU), which has the form 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        max
+        (
+        −
+        a
+        ,
+        x
+        )
+      
+    
+    {\displaystyle f(x)=\max(-a,x)}
+   given the same interpretation of 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  .
+
+
+==== Mish ====
+The mish function could also be used as a smooth approximation of the rectifier. It is defined as 
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        x
+        tanh
+        ⁡
+        (
+        softplus
+        ⁡
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle f(x)=x\tanh(\operatorname {softplus} (x))}
+  where 
+  
+    
+      
+        tanh
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle \tanh(x)}
+   is the hyperbolic tangent and 
+  
+    
+      
+        
+          s
+          o
+          f
+          t
+          

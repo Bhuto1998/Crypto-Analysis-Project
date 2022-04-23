@@ -1,0 +1,90 @@
+i}
+   in the network with activation 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+    {\displaystyle y_{i}}
+  , the rate of change of activation is given by:
+
+  
+    
+      
+        
+          τ
+          
+            i
+          
+        
+        
+          
+            
+              
+                y
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        −
+        
+          y
+          
+            i
+          
+        
+        +
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          w
+          
+            j
+            i
+          
+        
+        σ
+        (
+        
+          y
+          
+            j
+          
+        
+        −
+        
+          Θ
+          
+            j
+          
+        
+        )
+        +
+        
+          I
+          
+            i
+          
+        
+        (
+   

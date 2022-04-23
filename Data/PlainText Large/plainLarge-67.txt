@@ -1,0 +1,7 @@
+wever, the CNN architecture is usually trained through backpropagation.
+The neocognitron is the first CNN which requires units located at multiple network positions to have shared weights.
+Convolutional neural networks were presented at the Neural Information Processing Workshop in 1987, automatically analyzing time-varying signals by replacing learned multiplication with convolution in time, and demonstrated for speech recognition.
+
+
+=== Time delay neural networks ===
+The time delay neural network (TDNN) was introduced in 1987 by Alex Waibel et al. and was one of the first convolutional networks, as it achieved shift invariance. It did so by utilizing weight sharing in combination with backpropagation training. Thus, while also using a pyramidal structure as in the neocognitron, it performed a global optimization of the weights instead of a local one.TDNNs are convolutional networks that share weights along the temporal dimension. They allow speech signals to be processed time-invariantly. In 1990 Hampshire 

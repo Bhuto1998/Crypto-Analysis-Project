@@ -1,0 +1,9 @@
+s. Convolutional networks can provide an improved forecasting performance when there are multiple similar time series to learn from. CNNs can also be applied to further tasks in time series analysis (e.g., time series classification or quantile forecasting).
+
+
+=== Cultural Heritage and 3D-datasets ===
+As archaeological findings like clay tablets with cuneiform writing are increasingly acquired using 3D scanners first benchmark datasets are becoming available like HeiCuBeDa providing almost 2.000 normalized 2D- and 3D-datasets prepared with the GigaMesh Software Framework. So curvature-based measures are used in conjunction with Geometric Neural Networks (GNNs) e.g. for period classification of those clay tablets being among the oldest documents of human history.
+
+
+== Fine-tuning ==
+For many applications, the training data is less available. Convolutional neural networks usually require a large amount of training data in order to avoid overfitting. A common technique is to train the network on a larger data se

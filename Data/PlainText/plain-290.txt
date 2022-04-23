@@ -1,0 +1,1 @@
+variable is reset to a lower val

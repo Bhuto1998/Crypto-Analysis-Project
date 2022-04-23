@@ -1,0 +1,7 @@
+nsion. VC Dimension uses the principles of measure theory and finds the maximum capacity under the best possible circumstances. This is, given input data in a specific form.  As noted in, the VC Dimension for arbitrary inputs is half the information capacity of a Perceptron. The VC Dimension for arbitrary points is sometimes referred to as Memory Capacity.
+
+
+=== Convergence ===
+Models may not consistently converge on a single solution, firstly because local minima may exist, depending on the cost function and the model. Secondly, the optimization method used might not guarantee to converge when it begins far from any local minimum. Thirdly, for sufficiently large data or parameters, some methods become impractical.
+Another issue worthy to mention is that training may cross some Saddle point which may lead the convergence to the wrong direction.
+The convergence behavior of certain types of ANN architectures are more understood than others. When the width of network approaches to infinity, the ANN is well descr

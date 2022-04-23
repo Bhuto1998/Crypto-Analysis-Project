@@ -4,7 +4,7 @@
 import os
 import pyaes
 
-# Generating a 128 bit random key
+
 key = os.urandom(16)
 
 PlainText = "TextMustBe16Byte"

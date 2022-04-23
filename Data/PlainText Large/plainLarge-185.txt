@@ -1,0 +1,7 @@
+h and Walter Pitts published the first works on the processing of neural networks. They showed theoretically that networks of artificial neurons could implement logical, arithmetic, and symbolic functions. Simplified models of biological neurons were set up, now usually called perceptrons or artificial neurons. These simple models accounted for neural summation (i.e., potentials at the post-synaptic membrane will summate in the cell body). Later models also provided for excitatory and inhibitory synaptic transmission.
+
+
+== Connections between neurons ==
+
+The connections between neurons in the brain are much more complex than those of the artificial neurons used in the connectionist neural computing models of artificial neural networks. The basic kinds of connections between neurons are synapses: both chemical and electrical synapses.
+The establishment of synapses enables the connection of neurons into millions of overlapping, and interlinking neural circuits. Presynaptic proteins called neurexins are central 

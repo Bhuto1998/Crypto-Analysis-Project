@@ -1,0 +1,31 @@
+s from months to days.Neuromorphic engineering or a physical neural network addresses the hardware difficulty directly, by constructing non-von-Neumann chips to directly implement neural networks in circuitry. Another type of chip optimized for neural network processing is called a Tensor Processing Unit, or TPU.
+
+
+=== Practical counterexamples ===
+Analyzing what has been learned by an ANN is much easier than analyzing what has been learned by a biological neural network. Furthermore, researchers involved in exploring learning algorithms for neural networks are gradually uncovering general principles that allow a learning machine to be successful. For example, local vs. non-local learning and shallow vs. deep architecture.
+
+
+=== Hybrid approaches ===
+Advocates of hybrid models (combining neural networks and symbolic approaches), claim that such a mixture can better capture the mechanisms of the human mind.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+		
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Bibliography =

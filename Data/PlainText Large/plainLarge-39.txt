@@ -1,0 +1,13 @@
+
+  Update crossbar memory w'(a,s) = w(a,s) + v(s').
+
+The backpropagated value (secondary reinforcement) is the emotion toward the consequence situation. The CAA exists in two environments, one is behavioral environment where it behaves, and the other is genetic environment, where from it initially and only once receives initial emotions about to be encountered situations in the behavioral environment. Having received the genome vector (species vector) from the genetic environment, the CAA will learn a goal-seeking behavior, in the behavioral environment that contains both desirable and undesirable situations.
+
+
+==== Neuroevolution ====
+
+Neuroevolution can create neural network topologies and weights using evolutionary computation. It is competitive with sophisticated gradient descent approaches. One advantage of neuroevolution is that it may be less prone to get caught in "dead ends".
+
+
+=== Stochastic neural network ===
+Stochastic neural networks originating from  Sherrington–Kirkpatrick models  are a type of

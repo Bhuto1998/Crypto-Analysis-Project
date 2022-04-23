@@ -1,0 +1,29 @@
+enerates 
+  
+    
+      
+        
+          2
+          
+            n
+          
+        
+      
+    
+    {\displaystyle 2^{n}}
+   neural nets, and as such allows for model combination, at test time only a single network needs to be tested.
+By avoiding training all nodes on all training data, dropout decreases overfitting. The method also significantly improves training speed. This makes the model combination practical, even for deep neural networks. The technique seems to reduce node interactions, leading them to learn more robust features that better generalize to new data.
+
+
+==== DropConnect ====
+DropConnect is the generalization of dropout in which each connection, rather than each output unit, can be dropped with probability 
+  
+    
+      
+        1
+        −
+        p
+      
+    
+    {\displaystyle 1-p}
+  . Each unit thus receives input from a random subset of units in the previous layer.DropConnect is similar to dropout as it introduces dynamic sparsity within the model, but differs in that the spars

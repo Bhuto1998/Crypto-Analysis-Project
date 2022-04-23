@@ -1,0 +1,55 @@
+       
+                  
+                    otherwise
+                  
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle f(x)={\begin{cases}x&{\text{if }}x>0,\\0.01x&{\text{otherwise}}.\end{cases}}}
+  
+
+
+==== Parametric ReLU ====
+Parametric ReLUs (PReLUs) take this idea further by making the coefficient of leakage into a parameter that is learned along with the other neural-network parameters.
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  x
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  0
+                  ,
+                
+              
+              
+                
+                  a
+                  x
+                
+                
+                  
+                    otherwise
+               

@@ -1,0 +1,51 @@
+\right]\,{\text{is large}}\end{aligned}}}
+  
+
+  
+    
+      
+        i
+        ,
+        j
+      
+    
+    {\displaystyle i,j}
+   are indexes into a set of vectors
+
+  
+    
+      
+        f
+        ⁡
+        (
+        ⋅
+        )
+        ,
+        g
+        ⁡
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \operatorname {f} (\cdot ),\operatorname {g} (\cdot )}
+  function implemented by the half-twin network
+
+  
+    
+      
+        
+          δ
+        
+        ⁡
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \operatorname {\delta } (\cdot )}
+  function implemented by the network joining outputs from the twin network
+
+
+== Twin networks for object tracking ==
+Twin networks have been used in object tracking because of its unique two tandem inputs and similarity measurement. In object tracking, one input of the twin network is user pre-selected exemplar image, the other input is a larger search image, which twin network's job is to locate exemplar inside of search image. By measuring th

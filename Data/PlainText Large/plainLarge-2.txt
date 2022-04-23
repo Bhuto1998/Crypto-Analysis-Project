@@ -1,0 +1,9 @@
+ptive control, in order to construct software agents (in computer and video games) or autonomous robots.
+Historically, digital computers evolved from the von Neumann model, and operate via the execution of explicit instructions via access to memory by a number of processors. On the other hand, the origins of neural networks are based on efforts to model information processing in biological systems. Unlike the von Neumann model, neural network computing does not separate memory and processing.
+Neural network theory has served both to better identify how the neurons in the brain function and to provide the basis for efforts to create artificial intelligence.
+
+
+== History ==
+The preliminary theoretical base for contemporary neural networks was independently proposed by Alexander Bain (1873) and William James (1890). In their work, both thoughts and body activity resulted from interactions among neurons within the brain.
+
+For Bain, every activity led to the firing of a certain set of neurons. When activities were

@@ -1,0 +1,65 @@
+ 
+            
+            k
+          
+        
+      
+    
+    {\displaystyle f(x)={\frac {\ln \left(1+e^{kx}\right)}{k}}}
+  The derivative of softplus is the logistic function. Starting from the parametric version,
+
+  
+    
+      
+        
+          f
+          ′
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              e
+              
+                k
+                x
+              
+            
+            
+              1
+              +
+              
+                e
+                
+                  k
+                  x
+                
+              
+            
+          
+        
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                e
+                
+                  −
+                  k
+                  x
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle f'(x)={\frac {e^{kx}}{1+e^{kx}}}={\frac {1}{1+e^{-kx}}}}
+  The logistic sigmoid funct

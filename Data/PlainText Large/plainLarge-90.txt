@@ -1,0 +1,14 @@
+e right level of granularity so as to create abstractions at the proper scale, given a particular data set, and without overfitting.
+
+
+=== Pooling type and size ===
+Max pooling is typically used, often with a 2x2 dimension. This implies that the input is drastically downsampled, reducing processing cost.
+Large input volumes may warrant 4×4 pooling in the lower layers. Greater pooling reduces the dimension of the signal, and may result in unacceptable information loss. Often, non-overlapping pooling windows perform best.
+
+
+=== Dilation ===
+Dilation involves ignoring pixels within a kernel. This reduces processing/memory potentially without significant signal loss. A dilation of 2 on a 3x3 kernel expands the kernel to 7x7, while still processing 9 (evenly spaced) pixels. Accordingly, dilation of 4 expands the kernel to 15x15.
+
+
+== Translation equivariance and aliasing ==
+It is commonly assumed that CNNs are invariant to shifts of the input. Convolution or pooling layers within a CNN that do not have a stride gr

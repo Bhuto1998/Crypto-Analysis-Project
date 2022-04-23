@@ -1,0 +1,57 @@
+ {f} \left(x^{(i)}\right),\,\operatorname {f} \left(x^{(j)}\right)\right]\,{\text{is small}}\\{\text{otherwise}}&\,\operatorname {\delta } \left[\operatorname {f} \left(x^{(i)}\right),\,\operatorname {f} \left(x^{(j)}\right)\right]\,{\text{is large}}\end{aligned}}}
+  
+
+  
+    
+      
+        i
+        ,
+        j
+      
+    
+    {\displaystyle i,j}
+   are indexes into a set of vectors
+
+  
+    
+      
+        f
+        ⁡
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \operatorname {f} (\cdot )}
+  function implemented by the twin network
+
+  
+    
+      
+        
+          δ
+        
+        ⁡
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \operatorname {\delta } (\cdot )}
+  function implemented by the network joining outputs from the twin networkOn a matrix form the previous is often approximated as a Mahalanobis distance for a linear space as
+
+  
+    
+      
+        
+          δ
+        
+        ⁡
+        (
+        
+          
+            x
+          
+          
+            (
+      

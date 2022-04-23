@@ -1,0 +1,38 @@
+ 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  . Euclidean loss is used for regressing to real-valued labels 
+  
+    
+      
+        (
+        −
+        ∞
+        ,
+        ∞
+        )
+      
+    
+    {\displaystyle (-\infty ,\infty )}
+  .
+
+
+== Hyperparameters ==
+Hyperparameters are various settings that are used to control the learning process. CNNs use more hyperparameters than a standard multilayer perceptron (MLP).
+
+
+=== Kernel size ===
+The kernel is the number of pixels processed together. It is typically expressed as the kernel's dimensions, e.g., 2x2, or 3x3.
+
+
+=== Padding ===
+Padding is the addition of (typically) 0-valued pixels on the borders of an image. This is done so that the border pixels are not undervalued (lost) from the output because they would ordinarily participate in only a single receptive field instance. The padding applied is typically one less than the corresponding kernel dimension. For example, a convolutional layer using

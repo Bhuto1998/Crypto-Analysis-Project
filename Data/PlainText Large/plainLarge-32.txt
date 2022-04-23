@@ -1,0 +1,16 @@
+the mean-squared error, which tries to minimize the average squared error between the network's output and the desired output. Tasks suited for supervised learning are pattern recognition (also known as classification) and regression (also known as function approximation). Supervised learning is also applicable to sequential data (e.g., for hand writing, speech and gesture recognition). This can be thought of as learning with a "teacher", in the form of a function that provides continuous feedback on the quality of solutions obtained thus far.
+
+
+==== Unsupervised learning ====
+In unsupervised learning, input data is given along with the cost function, some function of the data 
+  
+    
+      
+        
+          x
+        
+      
+    
+    {\displaystyle \textstyle x}
+   and the network's output. The cost function is dependent on the task (the model domain) and any a priori assumptions (the implicit properties of the model, its parameters and the observed variables). As a trivial example, consider the model 
+  

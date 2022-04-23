@@ -1,0 +1,10 @@
+ excellent results in semantic parsing, search query retrieval, sentence modeling, classification, prediction and other traditional NLP tasks.
+Compared to traditional language processing methods such as recurrent neural networks, CNNs can represent different contextual realities of language that do not rely on a series-sequence assumption, while RNNs are better suitable when classical time serie modeling is required  
+
+
+=== Anomaly Detection ===
+A CNN with 1-D convolutions was used on time series in the frequency domain (spectral residual) by an unsupervised model to detect anomalies in the time domain.
+
+
+=== Drug discovery ===
+CNNs have been used in drug discovery. Predicting the interaction between molecules and biological proteins can identify potential treatments. In 2015, Atomwise introduced AtomNet, the first deep learning neural network for structure-based drug design. The system trains directly on 3-dimensional representations of chemical interactions. Similar to how image recognition networks learn t
