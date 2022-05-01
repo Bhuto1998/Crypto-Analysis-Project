@@ -19,7 +19,7 @@ def Best_Matching(SOM,x):
     temp = (np.square(SOM-x)).sum(axis=2)
     return np.unravel_index(np.argmin(temp, axis=None), temp.shape)
 
-def Weight_Update(SOM,train_ex,learn_rate,radius_sq,BMU_coord,step=3):
+def Weight_Update(SOM,train_ex,learn_rate,radius_sq,BMU_coord,step=10):
     g, h = BMU_coord
     # if radius is close to zero then only BMU is changed
     if radius_sq < 1e-3:
@@ -53,36 +53,51 @@ def train_SOM(SOM, train_data, learn_rate = .1, radius_sq = 1,
 
 #Experiment
 # Dimensions of the SOM grid
-m = 35
-n = 29
+m = 10#35
+n = 10#29
 # Number of training examples
 n_x = 30000
 rand = np.random.RandomState(0)
 # Initialize the training data
-train_data = rand.randint(0, 255, (n_x, 3))
+train_data = np.random.uniform(0, 1, (n_x,2))
 # Initialize the SOM randomly
-SOM = rand.randint(0, 255, (m, n, 3)).astype(float)
+s = [10,10,2]
+SOM = np.random.uniform(0.3,0.7,s)
+#SOM = rand.random(0.3, 0.7, (10, 10)).astype(float)
 # Display both the training matrix and the SOM grid
-fig, ax = plt.subplots(
-    nrows=1, ncols=2, figsize=(12, 3.5),
-    subplot_kw=dict(xticks=[], yticks=[]))
-ax[0].imshow(train_data.reshape(500, 60, 3))
-ax[0].title.set_text('Training Data')
-ax[1].imshow(SOM.astype(int))
-ax[1].title.set_text('Randomly Initialized SOM Grid')
-plt.savefig("Initial.png")
+#fig, ax = plt.subplots(
+#    nrows=1, ncols=2, figsize=(12, 3.5),
+#    subplot_kw=dict(xticks=[], yticks=[]))
+#ax[0].imshow(train_data.reshape(500, 180, 1))
+#ax[0].title.set_text('Training Data')
+#ax[1].imshow(SOM.astype(int))
+#ax[1].title.set_text('Randomly Initialized SOM Grid')
+#plt.savefig("Initial.png")
 
 #Training Process
-fig, ax = plt.subplots(
-    nrows=1, ncols=4, figsize=(15, 3.5),
-    subplot_kw=dict(xticks=[], yticks=[]))
+#fig, ax = plt.subplots(
+#    nrows=1, ncols=4, figsize=(15, 3.5),
+#   subplot_kw=dict(xticks=[], yticks=[]))
+data = []
+for i in range(m):
+    for j in range(n):
+        data = data + [SOM[i][j]]
+
+data_2d = np.stack(data)
+plt.scatter(data_2d[:,0],data_2d[:,1])
+plt.savefig("fig-initial-weights.png")
+
 total_epochs = 0
-for epochs, i in zip([1, 4, 5, 10], range(0,4)):
-    total_epochs += epochs
-    SOM = train_SOM(SOM, train_data, epochs=epochs)
-    ax[i].imshow(SOM.astype(int))
-    ax[i].title.set_text('Epochs = ' + str(total_epochs))
-    plt.savefig("Epoch-"+str(total_epochs)+".png")
-    print("Saved")
+epochs = 5
+SOM = train_SOM(SOM,train_data,epochs=epochs)
+data = []
+for i in range(m):
+    for j in range(n):
+        data = data + [SOM[i][j]]
+
+data_2d = np.stack(data)
+plt.scatter(data_2d[:,0],data_2d[:,1])
+plt.savefig("fig-final-weights.png")
+
 
 
